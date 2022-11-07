@@ -1,3 +1,4 @@
+
 CREATE TABLE Movie (
   code varchar(10) PRIMARY KEY,
   name varchar(100) NOT NULL,
