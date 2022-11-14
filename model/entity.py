@@ -1,10 +1,9 @@
 class Movie:
-    
     def __init__(self, code, name, image_url = None, year = None) -> None:
         self.code = code
         self.name = name
         self.image_url = image_url
-        self.year = year 
+        self.year = year
 
 class Review:
     def __init__(self, name, email, description, rating, movie_code, id = None) -> None:
