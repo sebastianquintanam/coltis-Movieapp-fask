@@ -1,5 +1,6 @@
-import controller.movie
-
 from flask import Flask
 
 app = Flask(__name__)
+
+import controller.movie
+import controller.review
