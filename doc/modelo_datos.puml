@@ -1,18 +1,18 @@
-@startuml "Modelo entidad relacion"
+@startuml "Modelo Entidad Relacion"
 
 Entity Movie {
-    code varchar(10) <<PK>>
-    name varchar(100) <<NN>>
-    image_url varchar(255)
-    year int(4)
+  code varchar(10) <<PK>>
+  name varchar(100) <<NN>>
+  image_url varchar(255)
+  year int(4)
 }
 
 Entity Review {
-    id int(8) <auto increment> <<PK>>
-    name varchar(100) <<NN>>
-    email varchar(100) <<NN>>
-    description varchar(4000) <<NN>>
-    rating int(1) <<NN>>
+  id int(8) <auto increment> <<PK>>
+  name varchar(100) <<NN>>
+  email varchar(100) <<NN>>
+  description varchar(4000) <<NN>>
+  rating int(1) <<NN>>
 }
 
 Movie ||--o{ Review
